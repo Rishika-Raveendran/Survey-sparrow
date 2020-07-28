@@ -59,17 +59,12 @@
 .chat-container {
   border-radius: 10px;
   opacity: 0.9;
-  background-image: linear-gradient(
-    to bottom,
-    #0c003a,
-    #4c5aa1,
-    #4c5aa1,
-    #ecf1fb
-  );
+  background-color: #ecf1fb;
+  color: #0c003a;
 }
 
 #chat-column {
-  border-top: solid 1px #ecf1fb;
+  border-top: solid 1px #0c003a;
   height: 30vh;
   border-radius: 10px;
 }
@@ -79,32 +74,30 @@
   position: relative;
   height: 8vh;
   margin-top: 5%;
-  border-top: solid 1px #ecf1fb;
-  color: black;
+  border-top: solid 1px #0c003a;
+  color: #0c003a;
 }
 .msg {
-  color: #0c003a;
+  color: #ecf1fb;
   padding-right: 0.5vh;
   min-height: 3vh;
   margin-left: auto;
   margin-top: 1vh;
   text-align: right;
-  background-color: black;
   max-width: 85%;
   border-radius: 5px;
-  background-color: #ecf1fb;
+  background-color: #4c5aa1;
 }
 .reply {
-  color: #0c003a;
+  background-color: #7f8ac5;
   padding-left: 0.5vh;
   min-height: 4vh;
   margin-top: 1vh;
   margin-right: auto;
   text-align: left;
-  background-color: rgb(172, 19, 19);
   max-width: 85%;
   border-radius: 10px;
-  background-image: linear-gradient(to left, #7f8ac5, #ecf1fb);
+  color: #ecf1fb;
 }
 
 #chat-footer {
