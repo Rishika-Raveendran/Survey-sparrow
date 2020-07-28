@@ -1,38 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;900&display=swap");
+
 .App {
+  color: #ecf1fb;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  overflow: scrollable;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navig {
+  color: #ecf1fb;
+  font-weight: 800;
+  font-size: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navitem {
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navig:hover {
+  color: #4c5aa1;
+}
+.navitem:hover {
+  color: #ecf1fb;
+}
+.login {
+  color: #0c003a;
+  background-color: #ecf1fb;
+  border-radius: 20px;
+}
+.text-content {
+  font-size: 4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.body-row {
+  padding-top: 5vh;
+}
+.chatbox {
+  height: 55vh;
+  font-size: small;
+  position: relative;
+  min-height: 40vh;
+  border-radius: 5px;
+}
+#close-fab,
+#fab {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: transparent;
+  outline: none;
+}
+#header1,
+#header2,
+#header3 {
+  height: 4vh;
+}
+.chat-container {
+  border-radius: 10px;
+  opacity: 0.9;
+  background-image: linear-gradient(
+    to bottom,
+    #0c003a,
+    #4c5aa1,
+    #4c5aa1,
+    #ecf1fb
+  );
 }
 
-.App-link {
-  color: #61dafb;
+#chat-column {
+  border-top: solid 1px #ecf1fb;
+  height: 30vh;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  padding: 0.5vh;
+  position: relative;
+  height: 8vh;
+  margin-top: 5%;
+  border-top: solid 1px #ecf1fb;
+  color: black;
+}
+.msg {
+  color: #0c003a;
+  padding-right: 0.5vh;
+  min-height: 3vh;
+  margin-left: auto;
+  margin-top: 1vh;
+  text-align: right;
+  background-color: black;
+  max-width: 85%;
+  border-radius: 5px;
+  background-color: #ecf1fb;
+}
+.reply {
+  color: #0c003a;
+  padding-left: 0.5vh;
+  min-height: 4vh;
+  margin-top: 1vh;
+  margin-right: auto;
+  text-align: left;
+  background-color: rgb(172, 19, 19);
+  max-width: 85%;
+  border-radius: 10px;
+  background-image: linear-gradient(to left, #7f8ac5, #ecf1fb);
+}
+
+#chat-footer {
+  font-size: x-small;
+  color: #0c003a;
+  height: 2vh;
+  padding: 1px;
+}
+#chat-footer img {
+  height: 1.5vh;
+  width: 1.5vh;
+}
+.foot-msg {
+  font-size: xx-small;
+}
+#start-convo {
+  background-color: #13a884;
+  border: none;
 }
