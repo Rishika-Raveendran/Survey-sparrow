@@ -51,7 +51,7 @@ function Body() {
             <button id="fab" onClick={handleOpen}>
               <img
                 src="
-              /assets/images/Sparrow Bird.png"
+              assets/images/Sparrow Bird.png"
                 height="40px"
                 width="35px"
               />
